@@ -1,0 +1,1 @@
+export const SELLER_DASHBOARD_TITLE = 'Seller Dashboard'

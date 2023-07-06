@@ -1,0 +1,524 @@
+{
+    "products":[
+        {
+            "product_id":1,
+            "name":"product A",
+            "shortDescription": "Product A short description",
+            "detailDescription": "Product A detail description",
+            "category": 1,
+            "startingPrice": 12500.5,
+            "bidCloseDate": "12-12-2023",
+            "status": "Active",
+            "seller_id": "1942009976"
+        },
+        {
+            "product_id":2,
+            "name":"product B",
+            "shortDescription": "Product B short description",
+            "detailDescription": "Product B detail description",
+            "category": 2,
+            "startingPrice": 500.5,
+            "bidCloseDate": "15-12-2023",
+            "status": "Active",
+            "seller_id": "1942009976"
+        },
+        {
+            "product_id":3,
+            "name":"product C",
+            "shortDescription": "Product C short description",
+            "detailDescription": "Product C detail description",
+            "category": 3,
+            "startingPrice": 450.5,
+            "bidCloseDate": "14-12-2023",
+            "status": "Active",
+            "seller_id": "1942009976"
+        },
+        {
+            "product_id":4,
+            "name":"product D",
+            "shortDescription": "Product D short description",
+            "detailDescription": "Product D detail description",
+            "category": 1,
+            "startingPrice": 5510.5,
+            "bidCloseDate": "16-12-2023",
+            "status": "Active",
+            "seller_id": "1942009976"
+        },
+        {
+            "product_id":5,
+            "name":"product E",
+            "shortDescription": "Product E short description",
+            "detailDescription": "Product E detail description",
+            "category": 1,
+            "startingPrice": 12500.5,
+            "bidCloseDate": "12-12-2022",
+            "status": "InActive",
+            "seller_id": "1942009976"
+        },
+        {
+            "product_id":6,
+            "name":"product F",
+            "shortDescription": "Product F short description",
+            "detailDescription": "Product F detail description",
+            "category": 1,
+            "startingPrice": 1560.5,
+            "bidCloseDate": "15-05-2023",
+            "status": "Active",
+            "seller_id": "1942009976"
+        },
+        {
+            "product_id":7,
+            "name":"product E",
+            "shortDescription": "Product E short description",
+            "detailDescription": "Product E detail description",
+            "category": 5,
+            "startingPrice": 12500.5,
+            "bidCloseDate": "06-06-2023",
+            "status": "Active",
+            "seller_id": "1942009976"
+        }
+    ],
+    "categories":[
+        {"category_id":1, "name": "Featured Products" },
+        {"category_id":2, "name": "Beauty Products" },
+        {"category_id":3, "name": "Organic Products" },
+        {"category_id":4, "name": "Electronics Products" },
+        {"category_id":5, "name": "Sports Products" },
+        {"category_id":6, "name": "Raw Food Products" }
+    ],
+    "bids":[
+        {
+            "bid_id":1,
+            "product_id":1,
+            "amount":12501.00,
+            "name":"ABCD",
+            "email":"abcd@mail.com",
+            "mobile":"1234567890",
+            "status":"Active"
+        },
+        {
+            "bid_id":2,
+            "product_id":1,
+            "amount":13501.00,
+            "name":"kishore",
+            "email":"kishore@mail.com",
+            "mobile":"1334567890",
+            "status":"Active"
+        },
+        {
+            "bid_id":3,
+            "product_id":1,
+            "amount":14401.00,
+            "name":"Krishna",
+            "email":"krishna@mail.com",
+            "mobile":"254567890",
+            "status":"Active"
+        },
+        {
+            "bid_id":4,
+            "product_id":1,
+            "amount":14501.00,
+            "name":"Sandeep",
+            "email":"sandeep@mail.com",
+            "mobile":"1364567890",
+            "status":"Active"
+        },
+        {
+            "bid_id":5,
+            "product_id":1,
+            "amount":12640.00,
+            "name":"Surya",
+            "email":"surya@mail.com",
+            "mobile":"6634567890",
+            "status":"Active"
+        },
+        {
+            "bid_id":6,
+            "product_id":1,
+            "amount":15701.00,
+            "name":"Vikas",
+            "email":"vikash@mail.com",
+            "mobile":"2234567890",
+            "status":"Active"
+        },
+        {
+            "bid_id":7,
+            "product_id":1,
+            "amount":19401.00,
+            "name":"Maisha",
+            "email":"manisha@mail.com",
+            "mobile":"254567890",
+            "status":"Active"
+        },
+        {
+            "bid_id":8,
+            "product_id":1,
+            "amount":16501.00,
+            "name":"Chintalu",
+            "email":"chintalu@mail.com",
+            "mobile":"1364567890",
+            "status":"Active"
+        },
+        {
+            "bid_id":9,
+            "product_id":2,
+            "amount":12501.00,
+            "name":"ABCD",
+            "email":"abcd@mail.com",
+            "mobile":"1234567890",
+            "status":"Active"
+        },
+        {
+            "bid_id":10,
+            "product_id":2,
+            "amount":13501.00,
+            "name":"kishore",
+            "email":"kishore@mail.com",
+            "mobile":"1334567890",
+            "status":"Active"
+        },
+        {
+            "bid_id":11,
+            "product_id":2,
+            "amount":14401.00,
+            "name":"Krishna",
+            "email":"krishna@mail.com",
+            "mobile":"254567890",
+            "status":"Active"
+        },
+        {
+            "bid_id":12,
+            "product_id":2,
+            "amount":14501.00,
+            "name":"Sandeep",
+            "email":"sandeep@mail.com",
+            "mobile":"1364567890",
+            "status":"Active"
+        },
+        {
+            "bid_id":13,
+            "product_id":2,
+            "amount":12640.00,
+            "name":"Surya",
+            "email":"surya@mail.com",
+            "mobile":"6634567890",
+            "status":"Active"
+        },
+        {
+            "bid_id":14,
+            "product_id":2,
+            "amount":15701.00,
+            "name":"Vikas",
+            "email":"vikash@mail.com",
+            "mobile":"2234567890",
+            "status":"Active"
+        },
+        {
+            "bid_id":15,
+            "product_id":3,
+            "amount":19401.00,
+            "name":"Maisha",
+            "email":"manisha@mail.com",
+            "mobile":"254567890",
+            "status":"Active"
+        },
+        {
+            "bid_id":16,
+            "product_id":3,
+            "amount":16501.00,
+            "name":"Chintalu",
+            "email":"chintalu@mail.com",
+            "mobile":"1364567890",
+            "status":"Active"
+        }
+    ],
+    "customers":[
+        {
+          "id": 1,
+          "name": "Leanne Graham",
+          "username": "Bret",
+          "email": "Sincere@april.biz",
+          "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+              "lat": "-37.3159",
+              "lng": "81.1496"
+            }
+          },
+          "phone": "1-770-736-8031 x56442",
+          "website": "hildegard.org",
+          "company": {
+            "name": "Romaguera-Crona",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+          }
+        },
+        {
+          "id": 2,
+          "name": "Ervin Howell",
+          "username": "Antonette",
+          "email": "Shanna@melissa.tv",
+          "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+              "lat": "-43.9509",
+              "lng": "-34.4618"
+            }
+          },
+          "phone": "010-692-6593 x09125",
+          "website": "anastasia.net",
+          "company": {
+            "name": "Deckow-Crist",
+            "catchPhrase": "Proactive didactic contingency",
+            "bs": "synergize scalable supply-chains"
+          }
+        },
+        {
+          "id": 3,
+          "name": "Clementine Bauch",
+          "username": "Samantha",
+          "email": "Nathan@yesenia.net",
+          "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157",
+            "geo": {
+              "lat": "-68.6102",
+              "lng": "-47.0653"
+            }
+          },
+          "phone": "1-463-123-4447",
+          "website": "ramiro.info",
+          "company": {
+            "name": "Romaguera-Jacobson",
+            "catchPhrase": "Face to face bifurcated interface",
+            "bs": "e-enable strategic applications"
+          }
+        },
+        {
+          "id": 4,
+          "name": "Patricia Lebsack",
+          "username": "Karianne",
+          "email": "Julianne.OConner@kory.org",
+          "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": "53919-4257",
+            "geo": {
+              "lat": "29.4572",
+              "lng": "-164.2990"
+            }
+          },
+          "phone": "493-170-9623 x156",
+          "website": "kale.biz",
+          "company": {
+            "name": "Robel-Corkery",
+            "catchPhrase": "Multi-tiered zero tolerance productivity",
+            "bs": "transition cutting-edge web services"
+          }
+        },
+        {
+          "id": 5,
+          "name": "Chelsey Dietrich",
+          "username": "Kamren",
+          "email": "Lucio_Hettinger@annie.ca",
+          "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263",
+            "geo": {
+              "lat": "-31.8129",
+              "lng": "62.5342"
+            }
+          },
+          "phone": "(254)954-1289",
+          "website": "demarco.info",
+          "company": {
+            "name": "Keebler LLC",
+            "catchPhrase": "User-centric fault-tolerant solution",
+            "bs": "revolutionize end-to-end systems"
+          }
+        },
+        {
+          "id": 6,
+          "name": "Mrs. Dennis Schulist",
+          "username": "Leopoldo_Corkery",
+          "email": "Karley_Dach@jasper.info",
+          "address": {
+            "street": "Norberto Crossing",
+            "suite": "Apt. 950",
+            "city": "South Christy",
+            "zipcode": "23505-1337",
+            "geo": {
+              "lat": "-71.4197",
+              "lng": "71.7478"
+            }
+          },
+          "phone": "1-477-935-8478 x6430",
+          "website": "ola.org",
+          "company": {
+            "name": "Considine-Lockman",
+            "catchPhrase": "Synchronised bottom-line interface",
+            "bs": "e-enable innovative applications"
+          }
+        },
+        {
+          "id": 7,
+          "name": "Kurtis Weissnat",
+          "username": "Elwyn.Skiles",
+          "email": "Telly.Hoeger@billy.biz",
+          "address": {
+            "street": "Rex Trail",
+            "suite": "Suite 280",
+            "city": "Howemouth",
+            "zipcode": "58804-1099",
+            "geo": {
+              "lat": "24.8918",
+              "lng": "21.8984"
+            }
+          },
+          "phone": "210.067.6132",
+          "website": "elvis.io",
+          "company": {
+            "name": "Johns Group",
+            "catchPhrase": "Configurable multimedia task-force",
+            "bs": "generate enterprise e-tailers"
+          }
+        },
+        {
+          "id": 8,
+          "name": "Nicholas Runolfsdottir V",
+          "username": "Maxime_Nienow",
+          "email": "Sherwood@rosamond.me",
+          "address": {
+            "street": "Ellsworth Summit",
+            "suite": "Suite 729",
+            "city": "Aliyaview",
+            "zipcode": "45169",
+            "geo": {
+              "lat": "-14.3990",
+              "lng": "-120.7677"
+            }
+          },
+          "phone": "586.493.6943 x140",
+          "website": "jacynthe.com",
+          "company": {
+            "name": "Abernathy Group",
+            "catchPhrase": "Implemented secondary concept",
+            "bs": "e-enable extensible e-tailers"
+          }
+        },
+        {
+          "id": 9,
+          "name": "Glenna Reichert",
+          "username": "Delphine",
+          "email": "Chaim_McDermott@dana.io",
+          "address": {
+            "street": "Dayna Park",
+            "suite": "Suite 449",
+            "city": "Bartholomebury",
+            "zipcode": "76495-3109",
+            "geo": {
+              "lat": "24.6463",
+              "lng": "-168.8889"
+            }
+          },
+          "phone": "(775)976-6794 x41206",
+          "website": "conrad.com",
+          "company": {
+            "name": "Yost and Sons",
+            "catchPhrase": "Switchable contextually-based project",
+            "bs": "aggregate real-time technologies"
+          }
+        },
+        {
+          "id": 10,
+          "name": "Clementina DuBuque",
+          "username": "Moriah.Stanton",
+          "email": "Rey.Padberg@karina.biz",
+          "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261",
+            "geo": {
+              "lat": "-38.2386",
+              "lng": "57.2232"
+            }
+          },
+          "phone": "024-648-3804",
+          "website": "ambrose.net",
+          "company": {
+            "name": "Hoeger LLC",
+            "catchPhrase": "Centralized empowering task-force",
+            "bs": "target end-to-end models"
+          }
+        }
+      ],
+    "sellers": [
+        {
+        "seller_id": "1942009977",
+        "name": "Publisher1",
+        "domain": "publisher1.com",
+        "seller_type": "PUBLISHER",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Vanamo_Logo.png"
+        },
+        {
+        "seller_id": "1397382429",
+        "name": "Exchange1",
+        "domain": "exchange1.com",
+        "seller_type": "INTERMEDIARY"
+        },
+        {
+        "seller_id": "1942009976",
+        "name": "Seller And Intermediary, Inc",
+        "domain": "sellerandintermediary.com",
+        "seller_type": "PUBLISHER",
+        "comment": "NorthAmerica O&O inventory",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Vanamo_Logo.png"
+        },
+        {
+        "seller_id": "20000001",
+        "name": "Seller And Intermediary, Inc",
+        "domain": "sellerandintermediary.com",
+        "seller_type": "PUBLISHER",
+        "comment": "APAC O&O inventory"
+        },
+        {
+        "seller_id": "20000002",
+        "name": "Seller And Intermediary, Inc",
+        "domain": "sellerandintermediary.com",
+        "seller_type": "INTERMEDIARY",
+        "comment": "Non O&O inventory"
+        },
+        {
+        "seller_id": "101010101",
+        "name": "Hybrid Seller",
+        "domain": "hybridseller.com",
+        "seller_type": "BOTH",
+        "comment": "Sells both O&O and other sellers' inventory"
+        },
+        {
+        "seller_id": "00000001",
+        "seller_type": "INTERMEDIARY",
+        "is_confidential": 1
+        },
+        {
+        "seller_id": "EB_0001",
+        "name": "Passthrough Publisher",
+        "domain": "passthroughpublisher.com",
+        "seller_type": "PUBLISHER",
+        "is_passthrough": 1,
+        "comment": "direct buyer/seller of this inventory must establish an account relationship with Passthrough Publisher"
+        }
+    ]
+}
