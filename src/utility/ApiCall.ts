@@ -1,6 +1,6 @@
 import axios from "axios";
 
-let baseURL = 'http://172.31.33.14:2500';
+let baseURL = 'https://my-json-server.typicode.com/kkrajpurohit007/mockup';
 export default axios.create({
     baseURL,
     headers: {
