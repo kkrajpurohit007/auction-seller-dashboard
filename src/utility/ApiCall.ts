@@ -1,6 +1,6 @@
 import axios from "axios";
 
-let baseURL = 'http://3.6.67.210:2500';
+let baseURL = 'http://3.6.67.210:3000';
 export default axios.create({
     baseURL,
     headers: {
