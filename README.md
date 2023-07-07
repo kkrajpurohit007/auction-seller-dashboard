@@ -16,6 +16,9 @@ Run the app with fake server API need json-server global installation.
 json server Installation step you find below link. 
 https://www.digitalocean.com/community/tutorials/json-server
 
+## Mock api with github account
+https://my-json-server.typicode.com/kkrajpurohit007/mockup/products?product_id=1
+
 
 ### `npm start`
 
