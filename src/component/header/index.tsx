@@ -5,7 +5,7 @@ export default function PageHeader() {
   return (
     <nav className="navbar is-info">
         <div className="navbar-brand">
-        <a className="navbar-item" id='app-title' href="#">{process.env.APPLICATION_NAME}</a>
+        <a className="navbar-item" id='app-title' href="#">{process.env.APPLICATION_NAME}Auction System</a>
         </div>
     </nav>
   )
