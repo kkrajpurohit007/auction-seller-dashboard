@@ -6,6 +6,9 @@ This project was bootstrapped with Create React App, using the Redux and Redux T
 # Screen
 ![Seller Dashboard](./public/dashboard.PNG)
 
+# Global Url 
+[http://auction-app-bucket.s3-website.ap-south-1.amazonaws.com/](http://auction-app-bucket.s3-website.ap-south-1.amazonaws.com/)
+
 
 ## Available Scripts
 
